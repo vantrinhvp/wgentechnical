@@ -1,0 +1,23 @@
+{
+  "name": "norsys/module-banner-slider",
+  "description": "Magento 2 Banner Slider extension",
+  "type": "magento2-module",
+  "version": "4.0.2",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Norsys",
+      "email": "support@norsys.com",
+      "homepage": "https://www.norsys.com",
+      "role": "Technical Support"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Norsys\\BannerSlider\\": ""
+    }
+  }
+}
